@@ -27,8 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-./screenshot.png
-
+<img src="screenshot.PNG">
 
 ### Links
 
