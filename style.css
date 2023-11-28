@@ -25,7 +25,7 @@ img{
 }
 .content{
     background-color:white;
-    padding: 40px;
+    padding: 35px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -37,33 +37,49 @@ img{
 }
 h1{
     font-family: 'Fraunces', serif;
-    line-height: 100%;
+    line-height: 110%;
 }
 p{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color: hsl(228, 12%, 48%);
-    line-height: 150%;
+    line-height: 180%;
+    margin-top: 20px;
+    margin-bottom: 25px;
 }
-.priceNow{
+.price{
     font-family: 'Fraunces', serif;
     color: hsl(158, 36%, 37%);
-    font-size: 28px;
+    font-size: 32px;
+    margin-right: 20px;
 }
 .priceBefore{
     font-family: 'Montserrat', sans-serif;
     color: hsl(228, 12%, 48%);
     text-decoration: line-through;
+    vertical-align: super;
 }
-.button{
+button{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 14px;
     background-color: hsl(158, 36%, 37%);
     color: white;
+    border: none;
     border-radius: 10px;
     text-align: center;
+    width: 100%;
+    padding: 17px;
+    margin-top: 30px;
 }
-.button img{
+button:hover {
+    background-color: hsl(212, 21%, 14%)
+}
+button div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button img{
     width: auto;
 }
